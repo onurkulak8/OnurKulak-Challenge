@@ -9,7 +9,7 @@ export default defineConfig(() => {
     
   return {
     plugins: [react()],
-    base,
+    base:"/OnurKulak-Challenge/",
     build: {
       outDir: "dist",
       assetsDir: "assets",
